@@ -17,6 +17,7 @@
     "explorer.confirmDelete": false,
     "explorer.confirmDragAndDrop": false,
     "explorer.confirmPasteNative": false,
+    "extensions.autoUpdate": "onlyEnabledExtensions",
     "files.autoSave": "afterDelay",
     "git.autofetch": true,
     "github.copilot.advanced": {

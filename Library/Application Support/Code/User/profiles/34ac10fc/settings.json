@@ -1,4 +1,10 @@
 {
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
     "[python]": {
         "editor.codeActionsOnSave": {
             "source.organizeImports": "explicit"
@@ -35,9 +41,14 @@
         "zshrc"
     ],
     "diffEditor.renderSideBySide": true,
+    "editor.codeActionsOnSave": {
+        "source.fixAll": "always",
+        "source.organizeImports": "always"
+    },
     "editor.defaultFormatter": "charliermarsh.ruff",
     "editor.fontFamily": "'FiraCode-Retina'",
     "editor.fontLigatures": false,
+    "editor.formatOnPaste": true,
     "editor.formatOnSave": true,
     "editor.hover.enabled": true,
     "editor.minimap.renderCharacters": false,
@@ -52,6 +63,7 @@
     "explorer.confirmDelete": false,
     "explorer.confirmDragAndDrop": false,
     "explorer.enableDragAndDrop": false,
+    "explorer.excludeGitIgnore": true,
     "explorer.sortOrder": "type",
     "files.associations": {
         "*.py": "python",
@@ -88,11 +100,13 @@
     "terminal.integrated.defaultProfile.linux": "zsh",
     "terminal.integrated.enableMultiLinePasteWarning": "never",
     "terminal.integrated.scrollback": 1000000,
+    "terminal.integrated.tabs.hideCondition": "never",
     "window.commandCenter": false,
     "workbench.colorCustomizations": {
         "editorRuler.foreground": "#4040407c"
     },
     "workbench.colorTheme": "Visual Studio Dark",
+    "workbench.editor.tabSizing": "shrink",
     "workbench.iconTheme": "material-icon-theme",
     "workbench.navigationControl.enabled": false,
     "workbench.productIconTheme": "material-product-icons",
