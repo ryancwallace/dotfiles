@@ -105,7 +105,7 @@
     "workbench.colorCustomizations": {
         "editorRuler.foreground": "#4040407c"
     },
-    "workbench.colorTheme": "Visual Studio Dark",
+    "workbench.colorTheme": "One Dark Pro",
     "workbench.editor.tabSizing": "shrink",
     "workbench.iconTheme": "material-icon-theme",
     "workbench.navigationControl.enabled": false,
