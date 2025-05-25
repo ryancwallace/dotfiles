@@ -1,0 +1,20 @@
+{
+  "AllowExperimentalFeatures": false,
+  "AutoStart": false,
+  "DesktopTerminalEnabled": true,
+  "DisplayedOnboarding": true,
+  "DockerAppLaunchPath": "/Applications/Docker.app",
+  "EnableCLIHints": true,
+  "EnableDockerAI": false,
+  "HostNetworkingEnabled": true,
+  "LastContainerdSnapshotterEnable": 1746246133,
+  "LicenseTermsVersion": 2,
+  "OnlyMarketplaceExtensions": false,
+  "SettingsVersion": 42,
+  "ShowAnnouncementNotifications": false,
+  "ShowInstallScreen": false,
+  "ShowPromotionalNotifications": false,
+  "ShowSurveyNotifications": false,
+  "UpdateInstallTime": 0,
+  "UseContainerdSnapshotter": true
+}
