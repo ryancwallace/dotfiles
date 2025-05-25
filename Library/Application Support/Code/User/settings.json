@@ -1,41 +1,41 @@
 {
-    "workbench.colorTheme": "Default Dark Modern",
-    "terminal.integrated.enableMultiLinePasteWarning": "never",
-    "files.autoSave": "afterDelay",
-    "jupyter.askForKernelRestart": false,
-    "editor.formatOnSave": true,
-    "explorer.confirmDelete": false,
-    "explorer.confirmPasteNative": false,
-    "explorer.confirmDragAndDrop": false,
-    "redhat.telemetry.enabled": false,
-    "github.copilot.enable": {
-        "*": true,
-        "plaintext": false,
-        "markdown": false,
-        "scminput": false,
-        "inlineSuggest": true,
-        "chat": true,
-        "jsonc": false,
-        "shellscript": false
-    },
-    "github.copilot.advanced": {
-        "debug.logging": "warn"
-    },
-    "[python]": { },
-    "editor.codeActionsOnSave": {
-        "source.organizeImports": "always",
-        "source.fixAll": "always"
-    },
-    "python.analysis.typeCheckingMode": "strict",
+    "[python]": {},
     "cSpell.userWords": [
         "mailx",
         "passwordeval",
         "ryancwallace"
     ],
+    "editor.codeActionsOnSave": {
+        "source.fixAll": "always",
+        "source.organizeImports": "always"
+    },
+    "editor.formatOnSave": true,
     "editor.rulers": [
         120,
         80
     ],
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+    "explorer.confirmPasteNative": false,
+    "files.autoSave": "afterDelay",
     "git.autofetch": true,
-    "window.newWindowProfile": "rcw-python"
+    "github.copilot.advanced": {
+        "debug.logging": "warn"
+    },
+    "github.copilot.enable": {
+        "*": true,
+        "chat": true,
+        "inlineSuggest": true,
+        "jsonc": false,
+        "markdown": false,
+        "plaintext": false,
+        "scminput": false,
+        "shellscript": false
+    },
+    "jupyter.askForKernelRestart": false,
+    "python.analysis.typeCheckingMode": "strict",
+    "redhat.telemetry.enabled": false,
+    "terminal.integrated.enableMultiLinePasteWarning": "never",
+    "window.newWindowProfile": "rcw-python",
+    "workbench.colorTheme": "Default Dark Modern"
 }

@@ -131,3 +131,32 @@ export PATH="/Users/rcw/.local/bin:$PATH"
 # Dotfile management with Git in repo `dotfiles`
 alias config='git --git-dir=$HOME/home/code/dotfiles/ --work-tree=$HOME'
 alias config-sync='config add -u && config commit -m "chore: update config files as of $(date +"%Y-%m-%dT%H:%M:%S")" && config push origin main'
+config-fmt() {
+    # fail eagerly in pipelines, keeping option changes local to function
+    emulate -L zsh
+    set -e           # abort function on first non‑zero *command* exit
+    set -o pipefail  # ...or on the first failing *pipeline*
+
+    local conf_root="$HOME/Library/Application Support/Code/User"
+
+    find "$conf_root" -type f \
+        \( -name 'settings.json' \
+            -o \( -path "$conf_root/profiles/*" -a -name '*.json' \) \
+        \) -print0 |
+    xargs -0 sh -c '
+        # protect the inner pipeline
+        set -e -o pipefail
+
+        conf_file="$1"
+        tmp_file=$(mktemp) || exit 255
+
+        # strip whole‑line //‑comments with sed then pretty‑print and key‑sort with jq
+        if sed -E "/^[[:space:]]*\/\//d" "$conf_file" | jq --indent 4 -S . > "$tmp_file"; then
+            mv "$tmp_file" "$conf_file"
+        else
+            echo "config-fmt: skipped invalid JSON in $conf_file" >&2
+            rm -f "$tmp_file"
+            exit 255
+        fi
+    ' sh
+}
