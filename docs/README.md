@@ -1,2 +1,2 @@
 # Dotfiles
-Personal system and program configuration files.
+Personal system and application configuration files.
