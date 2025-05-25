@@ -41,26 +41,10 @@ config config --local status.showUntrackedFiles no
 find "$HOME/Library/Application Support/Code/User" -type f \( -name 'settings.json' -o \( -path "$HOME/Library/Application Support/Code/User/profiles/*" -a -name '*.json' \) \) -print0 | xargs -0 -I{} sh -c 'grep -v "^[[:space:]]*//" "{}" | jq --indent 4 -S . | sponge "{}"'
 ```
 
-## Reminders
-* On `Ryans-Macbook-Pro`, the bare repository lives at `~/home/code/dotfiles/`.
+### VS Code config formatting
+VS Code saves its multiple config files in unformatted, single-line JSON that are very hard to work with by hand. The following function (that could be defined in a `~/.zshrc`, for example) formats and sorts keys in all the VS Code JSON config files.
 
-
-find "$HOME/Library/Application Support/Code/User" -type f -iname '*.json' -print0 | xargs -0 -I{} sh -c 'echo jq --indent 4 -S . "{}" \| sponge "{}"'
-
-
-
-
-
-find "$HOME/Library/Application Support/Code/User" -type f \( -name 'settings.json' -o \( -path "$HOME/Library/Application Support/Code/User/profiles/*" -a -name '*.json' \) \) -print0 | xargs -0 -I{} sh -c '
-  tmp=$(mktemp)
-  # Remove C-style // comments unless they sit inside a quoted string 
-  sed -E '\''s#^(([^"'\''\n]*"[^"'\''\n]*")*[^"'\''\n]*)//.*$#\1#'\'' "{}" > "$tmp"
-  jq --indent 4 -S . "$tmp" | sponge "{}"
-  rm -f "$tmp"
-'
-
-
-
+```bash
 config-fmt() {
     # fail eagerly in pipelines, keeping option changes local to function
     emulate -L zsh
@@ -90,3 +74,7 @@ config-fmt() {
         fi
     ' sh
 }
+```
+
+## Reminders
+* On `Ryans-Macbook-Pro`, the bare repository lives at `~/home/code/dotfiles/`.
