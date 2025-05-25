@@ -1,31 +1,30 @@
-// Place your key bindings in this file to override the defaults
 [
     {
-        "key": "ctrl+alt+left",
-        "command": "workbench.action.previousEditor"
+        "command": "workbench.action.previousEditor",
+        "key": "ctrl+alt+left"
     },
     {
-        "key": "ctrl+alt+right",
-        "command": "workbench.action.nextEditor"
+        "command": "workbench.action.nextEditor",
+        "key": "ctrl+alt+right"
     },
     {
-        "key": "shift+alt+down",
         "command": "editor.action.insertCursorBelow",
-        "when": "textInputFocus",
-        "args": { "logicalLine": true }
+        "key": "shift+alt+down",
+        "args": { "logicalLine": true },
+        "when": "textInputFocus"
     },
     {
-        "key": "shift+alt+up",
         "command": "editor.action.insertCursorAbove",
-        "when": "textInputFocus",
-        "args": { "logicalLine": true }
+        "key": "shift+alt+up",
+        "args": { "logicalLine": true },
+        "when": "textInputFocus"
     },
     {
-        "key": "ctrl+alt+f",
-        "command": "workbench.action.showAllSymbols"
+        "command": "workbench.action.showAllSymbols",
+        "key": "ctrl+alt+f"
     },
     {
-        "key": "ctrl+t",
-        "command": "-workbench.action.showAllSymbols"
+        "command": "-workbench.action.showAllSymbols",
+        "key": "ctrl+t"
     }
 ]

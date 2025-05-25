@@ -12,7 +12,28 @@
     "cSpell.enabledFileTypes": {
         "plaintext": false
     },
-    "cSpell.userWords": [],
+    "cSpell.userWords": [
+        "chezmoi",
+        "Macbook",
+        "mktemp",
+        "moreutils",
+        "pipefail",
+        "prereqs",
+        "pyproject",
+        "pyright",
+        "pyrightconfig",
+        "ruff",
+        "ruff.toml",
+        "ruffconfig",
+        "ryancwallace",
+        "Ryans",
+        "vscode",
+        "vscodium",
+        "zlogin",
+        "zprofile",
+        "zsh",
+        "zshrc"
+    ],
     "diffEditor.renderSideBySide": true,
     "editor.defaultFormatter": "charliermarsh.ruff",
     "editor.fontFamily": "'FiraCode-Retina'",
@@ -31,6 +52,7 @@
     "explorer.confirmDelete": false,
     "explorer.confirmDragAndDrop": false,
     "explorer.enableDragAndDrop": false,
+    "explorer.sortOrder": "type",
     "files.associations": {
         "*.py": "python",
         "*.tsx": "typescriptreact"
@@ -41,6 +63,8 @@
     "files.trimTrailingWhitespace": true,
     "git.autofetch": true,
     "git.confirmSync": false,
+    "gitlens.ai.model": "vscode",
+    "gitlens.ai.vscode.model": "copilot:gpt-4o",
     "gitlens.views.commitDetails.files.layout": "tree",
     "jupyter.askForKernelRestart": false,
     "jupyter.logging.level": "warn",
@@ -50,6 +74,7 @@
     },
     "notebook.defaultFormatter": "charliermarsh.ruff",
     "notebook.formatOnSave.enabled": true,
+    "problems.sortOrder": "position",
     "python.experiments.enabled": false,
     "python.testing.cwd": "${workspaceFolder}",
     "python.testing.pytestArgs": [
@@ -59,9 +84,10 @@
     "remote.autoForwardPortsSource": "hybrid",
     "ruff.lineLength": 120,
     "ruff.lint.preview": true,
+    "search.sortOrder": "type",
     "terminal.integrated.defaultProfile.linux": "zsh",
     "terminal.integrated.enableMultiLinePasteWarning": "never",
-     "terminal.integrated.scrollback": 1000000,
+    "terminal.integrated.scrollback": 1000000,
     "window.commandCenter": false,
     "workbench.colorCustomizations": {
         "editorRuler.foreground": "#4040407c"
@@ -69,15 +95,10 @@
     "workbench.colorTheme": "Visual Studio Dark",
     "workbench.iconTheme": "material-icon-theme",
     "workbench.navigationControl.enabled": false,
+    "workbench.productIconTheme": "material-product-icons",
     "workbench.secondarySideBar.defaultVisibility": "visible",
     "workbench.secondarySideBar.showLabels": false,
     "workbench.startupEditor": "none",
     "zenMode.hideLineNumbers": false,
-    "zenMode.showTabs": "single",
-    "workbench.productIconTheme": "material-product-icons",
-    "gitlens.ai.model": "vscode",
-    "gitlens.ai.vscode.model": "copilot:gpt-4o",
-    "explorer.sortOrder": "type",
-    "search.sortOrder": "type",
-    "problems.sortOrder": "position"
+    "zenMode.showTabs": "single"
 }
