@@ -12,13 +12,13 @@
         "key": "shift+alt+down",
         "command": "editor.action.insertCursorBelow",
         "when": "textInputFocus",
-        "args": { "logicalLine": true },
+        "args": { "logicalLine": true }
     },
     {
         "key": "shift+alt+up",
         "command": "editor.action.insertCursorAbove",
         "when": "textInputFocus",
-        "args": { "logicalLine": true },
+        "args": { "logicalLine": true }
     },
     {
         "key": "ctrl+alt+f",

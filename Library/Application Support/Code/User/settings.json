@@ -21,9 +21,7 @@
     "github.copilot.advanced": {
         "debug.logging": "warn"
     },
-    "[python]": {
-        "editor.defaultFormatter": "ms-python.black-formatter"
-    },
+    "[python]": { },
     "editor.codeActionsOnSave": {
         "source.organizeImports": "always",
         "source.fixAll": "always"
@@ -39,5 +37,5 @@
         80
     ],
     "git.autofetch": true,
-    "window.newWindowProfile": "rcw-python",
+    "window.newWindowProfile": "rcw-python"
 }
