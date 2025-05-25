@@ -1,0 +1,43 @@
+{
+    "workbench.colorTheme": "Default Dark Modern",
+    "terminal.integrated.enableMultiLinePasteWarning": "never",
+    "files.autoSave": "afterDelay",
+    "jupyter.askForKernelRestart": false,
+    "editor.formatOnSave": true,
+    "explorer.confirmDelete": false,
+    "explorer.confirmPasteNative": false,
+    "explorer.confirmDragAndDrop": false,
+    "redhat.telemetry.enabled": false,
+    "github.copilot.enable": {
+        "*": true,
+        "plaintext": false,
+        "markdown": false,
+        "scminput": false,
+        "inlineSuggest": true,
+        "chat": true,
+        "jsonc": false,
+        "shellscript": false
+    },
+    "github.copilot.advanced": {
+        "debug.logging": "warn"
+    },
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.black-formatter"
+    },
+    "editor.codeActionsOnSave": {
+        "source.organizeImports": "always",
+        "source.fixAll": "always"
+    },
+    "python.analysis.typeCheckingMode": "strict",
+    "cSpell.userWords": [
+        "mailx",
+        "passwordeval",
+        "ryancwallace"
+    ],
+    "editor.rulers": [
+        120,
+        80
+    ],
+    "git.autofetch": true,
+    "window.newWindowProfile": "rcw-python",
+}

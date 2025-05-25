@@ -1,0 +1,83 @@
+{
+    "[python]": {
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": "explicit"
+        },
+        "editor.defaultFormatter": "charliermarsh.ruff",
+        "editor.formatOnSave": true,
+        "files.insertFinalNewline": true
+    },
+    "basedpyright.analysis.inlayHints.genericTypes": true,
+    "basedpyright.importStrategy": "useBundled",
+    "cSpell.enabledFileTypes": {
+        "plaintext": false
+    },
+    "cSpell.userWords": [],
+    "diffEditor.renderSideBySide": true,
+    "editor.defaultFormatter": "charliermarsh.ruff",
+    "editor.fontFamily": "'FiraCode-Retina'",
+    "editor.fontLigatures": false,
+    "editor.formatOnSave": true,
+    "editor.hover.enabled": true,
+    "editor.minimap.renderCharacters": false,
+    "editor.minimap.size": "fill",
+    "editor.renderWhitespace": "boundary",
+    "editor.rulers": [
+        120
+    ],
+    "editor.stickyScroll.enabled": false,
+    "editor.wordWrap": "wordWrapColumn",
+    "editor.wordWrapColumn": 120,
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+    "explorer.enableDragAndDrop": false,
+    "files.associations": {
+        "*.py": "python",
+        "*.tsx": "typescriptreact"
+    },
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 500,
+    "files.insertFinalNewline": false,
+    "files.trimTrailingWhitespace": true,
+    "git.autofetch": true,
+    "git.confirmSync": false,
+    "gitlens.views.commitDetails.files.layout": "tree",
+    "jupyter.askForKernelRestart": false,
+    "jupyter.logging.level": "warn",
+    "notebook.codeActionsOnSave": {
+        "source.fixAll": "explicit",
+        "source.organizeImports": "explicit"
+    },
+    "notebook.defaultFormatter": "charliermarsh.ruff",
+    "notebook.formatOnSave.enabled": true,
+    "python.experiments.enabled": false,
+    "python.testing.cwd": "${workspaceFolder}",
+    "python.testing.pytestArgs": [
+        "tests"
+    ],
+    "python.testing.pytestEnabled": true,
+    "remote.autoForwardPortsSource": "hybrid",
+    "ruff.lineLength": 120,
+    "ruff.lint.preview": true,
+    "terminal.integrated.defaultProfile.linux": "zsh",
+    "terminal.integrated.enableMultiLinePasteWarning": "never",
+     "terminal.integrated.scrollback": 1000000,
+    "window.commandCenter": false,
+    "workbench.colorCustomizations": {
+        "editorRuler.foreground": "#4040407c"
+    },
+    "workbench.colorTheme": "Visual Studio Dark",
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.navigationControl.enabled": false,
+    "workbench.secondarySideBar.defaultVisibility": "visible",
+    "workbench.secondarySideBar.showLabels": false,
+    "workbench.startupEditor": "none",
+    "zenMode.hideLineNumbers": false,
+    "zenMode.showTabs": "single",
+    "workbench.productIconTheme": "material-product-icons",
+    "gitlens.ai.model": "vscode",
+    "gitlens.ai.vscode.model": "copilot:gpt-4o",
+    "explorer.sortOrder": "type",
+    "search.sortOrder": "type",
+    "problems.sortOrder": "position"
+}
