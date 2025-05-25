@@ -130,3 +130,4 @@ export PATH="/Users/rcw/.local/bin:$PATH"
 
 # Dotfile management with Git in repo `dotfiles`
 alias config='git --git-dir=$HOME/home/code/dotfiles/ --work-tree=$HOME'
+alias config-sync='config add -u && config commit -m "chore: update config files as of $(date +"%Y-%m-%dT%H:%M:%S")" && config push origin main'
