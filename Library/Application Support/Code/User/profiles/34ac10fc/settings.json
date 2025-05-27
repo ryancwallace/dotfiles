@@ -34,6 +34,7 @@
         "ruffconfig",
         "ryancwallace",
         "Ryans",
+        "singlesync",
         "vscode",
         "vscodium",
         "zlogin",
@@ -116,5 +117,6 @@
     "workbench.startupEditor": "none",
     "zenMode.hideLineNumbers": false,
     "zenMode.showTabs": "single",
-    "search.followSymlinks": false
+    "search.followSymlinks": false,
+    "shellformat.flag": "-i 4 -ci -sr"
 }
