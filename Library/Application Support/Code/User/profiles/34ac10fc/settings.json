@@ -19,6 +19,7 @@
         "plaintext": false
     },
     "cSpell.userWords": [
+        "bootout",
         "chezmoi",
         "Macbook",
         "mktemp",
@@ -118,5 +119,12 @@
     "zenMode.hideLineNumbers": false,
     "zenMode.showTabs": "single",
     "search.followSymlinks": false,
-    "shellformat.flag": "-i 4 -ci -sr"
+    "shellformat.flag": "-i 4 -ci -sr",
+    "workbench.editor.empty.hint": "hidden",
+    "github.copilot.enable": {
+        "*": false,
+        "plaintext": false,
+        "markdown": false,
+        "scminput": false
+    }
 }
