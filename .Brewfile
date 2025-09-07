@@ -82,6 +82,10 @@ brew "watch"
 brew "wget"
 # Process YAML, JSON, XML, CSV and properties documents from the CLI
 brew "yq"
+# Enable Windows-like alt-tab
+cask "alt-tab"
+# Scriptable scratchpad for developers
+cask "boop"
 # Clipboard manager
 cask "copyclip"
 # Universal database tool and SQL client
@@ -97,6 +101,8 @@ cask "font-cascadia-mono-pl"
 cask "font-fira-code"
 # Terminal emulator that uses platform-native UI and GPU acceleration
 cask "ghostty"
+# Desktop automation application
+cask "hammerspoon"
 # Client for Proton Mail and Proton Calendar
 cask "proton-mail"
 # Desktop client for Proton Pass
@@ -105,6 +111,8 @@ cask "proton-pass"
 cask "protonvpn"
 # System monitor for the menu bar
 cask "stats"
+# To-do & task list manager
+cask "ticktick"
 # Open-source code editor
 cask "visual-studio-code"
 vscode "1yib.rust-bundle"
