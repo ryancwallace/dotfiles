@@ -163,5 +163,5 @@ config-fmt() {
 
 # Goenv
 export GOENV_ROOT="$HOME/.goenv"
-export PATH="$GOENV_ROOT/bin:$PATH"
+export PATH="$GOENV_ROOT/shims:$PATH"
 eval "$(goenv init -)"

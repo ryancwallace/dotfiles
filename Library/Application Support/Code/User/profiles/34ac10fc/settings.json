@@ -65,7 +65,6 @@
     "editor.wordWrapColumn": 120,
     "explorer.confirmDelete": false,
     "explorer.confirmDragAndDrop": false,
-    "explorer.enableDragAndDrop": false,
     "explorer.excludeGitIgnore": true,
     "explorer.sortOrder": "type",
     "files.associations": {
@@ -126,5 +125,6 @@
         "plaintext": false,
         "markdown": false,
         "scminput": false
-    }
+    },
+    "go.goroot": "/Users/rcw/.goenv/shims"
 }
